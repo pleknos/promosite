@@ -1,0 +1,23 @@
+/* Отцентрованый контейнер */
+.container-centered {
+  max-width: var(--screen-xl);
+
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Скрывает элемент */
+.hide {
+  display: none !important;
+}
+
+/* Разделяющая линия */
+hr {
+  height: .1rem;
+
+  border: none;
+  outline: none;
+  background-color: var(--color-darker);
+}

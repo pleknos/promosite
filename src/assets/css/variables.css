@@ -1,0 +1,39 @@
+ :root {
+  /* Шрифты */
+  --font-primary: 'OpenSans', sans-serif;
+
+  /* Цвета */
+  --color-white: #fff;
+  --color-lighter: #f8f8f8;
+  --color-light: #e6e6e6;
+  --color-base: #dbdbdb;
+  --color-dark: #9b9b9b;
+  --color-darker: #636069;
+  --color-black: #1d1d1d;
+  
+  --color-primary: #3E6990;
+  --color-white: #fff;
+  --color-secondary: #381D2A;
+  --color-caption: #909090;
+  
+  --color-text: #1d1d1d;
+  
+  --color-success: #AABD8C;
+  --color-error: #F39B6D;
+  --color-info: #E9E3B4;
+  --color-warning: #E9E3B4;
+  
+  /* Настройки сайта */
+  --container-padding: 20px;
+  
+  /* Разрешения экранов */
+  --screen-x: 480px;
+  --screen-s: 768px;
+  --screen-m: 920px;
+  --screen-l: 1140px;
+  --screen-xl: 1705px;
+
+  /* Прочее */
+  --box-shadow: 0px .4rem .4rem rgba(0, 0, 0, 0.25); 
+ }
+ 
