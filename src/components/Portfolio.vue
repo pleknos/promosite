@@ -2,7 +2,7 @@
   <section class="container-centered portfolio">
     <div class="portfolio-items">
       <div class="portfolio-item" v-for="portfolioItem in portfolioItems" :key="portfolioItem._id">
-        <a :href="portfolioItem.href" target="_blank" rel="nofollow">
+        <a :href="portfolioItem.href" target="_blank" rel="nofollow noreferrer">
           <img :src="portfolioItem.src"  :alt="portfolioItem.name">
         </a>
       </div>
