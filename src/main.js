@@ -7,11 +7,15 @@ import About from './components/About.vue';
 
 const router = createRouter({
   history: createWebHistory(),
-  routes: [{ path: '/', component: About }],
+  routes: [
+    { path: '/', component: Portfolio },
+    { path: '/portfolio', component: Portfolio },
+    { path: '/about', component: About },
+  ],
 });
 
 const app = createApp(App);
 
 app.use(router);
 
-app.mount('#app');
+app.mount('main');

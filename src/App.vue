@@ -3,14 +3,14 @@
 </template> 
 
 <script>
-import styleVariables from './assets/css/variables.css'
-import stylePrototype from './assets/css/prototype.css'
-import styleTypography from './assets/css/typography.css'
-import styleCommon from './assets/css/common.css'
-import normalizeCSS from './assets/css/normalize.css'
+import styleVariables from '../public/css/variables.css';
+import stylePrototype from '../public/css/prototype.css';
+import styleTypography from '../public/css/typography.css';
+import styleCommon from '../public/css/common.css';
+import normalizeCSS from '../public/css/normalize.css';
 
-import Portfolio from './components/Portfolio.vue'
-import About from './components/About.vue'
+import Portfolio from './components/Portfolio.vue';
+import About from './components/About.vue';
 
 export default {
   name: 'App',
