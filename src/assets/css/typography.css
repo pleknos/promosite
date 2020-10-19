@@ -23,9 +23,23 @@ h2, .h2 {
 }
 
 p {
-  margin: .7rem 0;
+  margin: 1rem 0;
 
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 500;
   color: var(--color-dark);
+}
+
+ul {
+  margin: 1rem 0;
+  padding: 0;
+  padding-left: 2rem;
+}
+
+li {
+  list-style: square;
+  margin: .7rem 0;
+
+  font-size: 1.8rem;
+  font-weight: 500;
 }
