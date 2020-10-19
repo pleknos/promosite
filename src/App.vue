@@ -6,6 +6,8 @@
 
 <script>
 import styleVariables from './assets/css/variables.css'
+import stylePrototype from './assets/css/prototype.css'
+import styleTypography from './assets/css/typography.css'
 import styleCommon from './assets/css/common.css'
 import normalizeCSS from './assets/css/normalize.css'
 

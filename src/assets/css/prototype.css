@@ -1,0 +1,42 @@
+html {
+  width: 100%;
+  height: 100%;
+
+  font-size: 62.5%;
+  font-family: var(--font-primary);
+  font-weight: 400;
+  box-sizing: border-box;
+
+  color: var(--color-black);
+}
+
+html > * {
+  box-sizing: inherit;
+}
+
+body {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas: 'header' 'main' 'footer';
+
+  font-size: 1.6rem;
+}
+
+body > main {
+  grid-area: main;
+
+  max-width: 100%;
+  max-height: 100%;
+  min-width: 0;
+  margin-top: 1rem;
+}
+
+body > header {
+  grid-area: header;
+}
+
+body > footer {
+  grid-area: footer;
+}
