@@ -8,8 +8,8 @@ import About from './components/About.vue';
 const router = createRouter({
   history: createWebHistory(),
   routes: [
-    { path: '/', component: Portfolio },
-    { path: '/portfolio', component: Portfolio },
+    { path: '/', redirect: '/portfolio' },
+    { path: '/portfolio', component: Portfolio, name: 'portfolio' },
     { path: '/about', component: About },
   ],
 });

@@ -19,12 +19,12 @@ export default {
 </script>
 
 <style>
-section.about {
+main.about {
   max-width: var(--screen-l);
   padding: 0 2rem;
 }
 
-section.about a {
+main.about a {
   color: var(--color-darker);
 }
 </style>
