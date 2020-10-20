@@ -1,5 +1,5 @@
 <template>
-  <section class="container-centered portfolio">
+  <main class="container-centered portfolio">
     <div class="portfolio-items">
       <div class="portfolio-item" v-for="portfolioItem in portfolioItems" :key="portfolioItem._id">
         <a :href="portfolioItem.href" target="_blank" rel="nofollow noreferrer">
@@ -7,7 +7,7 @@
         </a>
       </div>
     </div>
-  </section>
+  </main>
 </template>
 
 <script>
@@ -16,12 +16,12 @@ export default {
   data() {
     return {
       portfolioItems: [
-        {_id: 0, src: '/public/img/portfolio/alfa.png', alt: 'alfa-suvenir', href: "https://alfa-suvenir.ru/"},
-        {_id: 1, src: '/public/img/portfolio/helen.png', alt: 'helen gifts', href: 'https://helengifts.ru/'},
-        {_id: 2, src: '/public/img/portfolio/totti.png', alt: 'totti-shop', href: 'https://totti-shop.ru/'},
-        {_id: 3, src: '/public/img/portfolio/snpro.png', alt: 'snpro-expo', href: 'https://snpro-expo.com/'},
-        {_id: 4, src: '/public/img/portfolio/bikeupgrade.png', alt: 'bikeupgrade', href: 'https://bikeupgrade.ru/'},
-        {_id: 5, src: '/public/img/portfolio/zapomnibrand.png', alt: 'zapomnibrand', href: 'https://zapomnibrand.ru/'},
+        {_id: 0, src: '/img/portfolio/alfa.png', alt: 'alfa-suvenir', href: "https://alfa-suvenir.ru/"},
+        {_id: 1, src: '/img/portfolio/helen.png', alt: 'helen gifts', href: 'https://helengifts.ru/'},
+        {_id: 2, src: '/img/portfolio/totti.png', alt: 'totti-shop', href: 'https://totti-shop.ru/'},
+        {_id: 3, src: '/img/portfolio/snpro.png', alt: 'snpro-expo', href: 'https://snpro-expo.com/'},
+        {_id: 4, src: '/img/portfolio/bikeupgrade.png', alt: 'bikeupgrade', href: 'https://bikeupgrade.ru/'},
+        {_id: 5, src: '/img/portfolio/zapomnibrand.png', alt: 'zapomnibrand', href: 'https://zapomnibrand.ru/'},
       ]
     }
   }
