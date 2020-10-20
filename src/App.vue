@@ -1,4 +1,5 @@
 <template>
+  <Header />
   <router-view></router-view>
 </template> 
 
@@ -11,12 +12,14 @@ import normalizeCSS from './assets/css/normalize.css';
 
 import Portfolio from './components/Portfolio.vue';
 import About from './components/About.vue';
+import Header from './components/Header.vue';
 
 export default {
   name: 'App',
   components: {
     Portfolio,
-    About
+    About,
+    Header
   }
 }
 
